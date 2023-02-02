@@ -1,0 +1,58 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --mainColor: #29335c;
+    --mainColorLight: #5767aa;
+    --secondaryColor: #DB2839;
+    --textColor: #eee;
+    --border-radius: 5px;
+}
+
+input.input-error, select.input-error {
+    border-color: red;
+}
+
+.error {
+    color: red;
+}
+
+button.btn {
+    display: block;
+    margin: 1rem 0;
+    padding: 0.35rem 0.5rem;
+    color: var(--textColor);
+    background-color: var(--mainColor);
+    border: none;
+    border-radius: var(--border-radius);
+    width: 50%;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:disabled {
+    opacity: 0.35;
+}
+
+input {
+    display: block;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 2px;
+    border-radius: var(--border-radius);
+    width: 50%;
+    outline: none;
+    padding: 2px;
+}
+
+label  {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: var(--mainColor);
+    margin-top: 0.5rem;
+    margin-bottom: 0.25rem;
+}
